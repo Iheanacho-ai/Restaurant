@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/11bebe4947.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Satisfy&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>
+    </title>
+</head>
+<body>
+    <nav class="horizontal-nav">
+        <div class="container">
+            <div class="heading-mobile-nav">
+                <div class="toggle-nav-left">
+                    <div class="nav-toggle-bar" onclick="toggleNav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="toggle-center">
+                    <i class="fas fa-utensils fork-spoon"></i>
+                    <h5 class="aliment">l' aliment</h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="overlay"></div>
+    <div class="mobile-side-bar">
+        <nav class="nav-sidebar">
+            <ul class="nav-ul">
+                <li><a href="/index.html" class="anchor">HOME</a></li>
+                <li><a href="/html/gallery.html" class="anchor">GALLERY</a></li>
+                <li><a href="/html/blog.html" class="anchor">BLOG</a></li>
+                <li><a href="/html/contact.html" class="anchor">CONTACT US</a></li>
+            
+            </ul>
+        </nav>
+        
+        <div class="icon icon-mobile">
+            <a href="https://twitter.com/amaraIheanach0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/Iheanacho-ai"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/public-profile/in/amarachi-iheanacho-0126861a6?challengeId=AQEgXeNoGLD74QAAAXOCgkzvZ3PPwf1yuk4TtDBG_10hmYUZwQtPCGHs1EBxuJNLZ8IUCVaav_vPhFfgI4ezfizQyg5_sMWp9g&submissionId=68f74eb3-28ca-2416-84ce-e0ba1d077104"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/daya___xo/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="dark-aside-bar">
+        <div class="toggle-center toggle-center-desktop">
+            <i class="fas fa-utensils fork-spoon"></i>
+            <h5 class="aliment">l' aliment</h5>
+        </div>
+        <div class="aside-bar">
+            <nav class="nav-aside-bar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./html/gallery.html">GALLERY</a></li>
+                    <li><a href="./html/blog.html">BLOG</a></li>
+                    <li><a href="./html/contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon">
+            <a href="https://twitter.com/amaraIheanach0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/Iheanacho-ai"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/public-profile/in/amarachi-iheanacho-0126861a6?challengeId=AQEgXeNoGLD74QAAAXOCgkzvZ3PPwf1yuk4TtDBG_10hmYUZwQtPCGHs1EBxuJNLZ8IUCVaav_vPhFfgI4ezfizQyg5_sMWp9g&submissionId=68f74eb3-28ca-2416-84ce-e0ba1d077104"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/daya___xo/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+    <div class="header resize"></div>   
+        <div class="resize">
+            <div class="preview-container">
+                <div class="preview">
+                    <div class="preview-img-1 preview0">
+                        <div>Pastries</div>
+                    </div>
+                    <div class="preview-img-1 preview1">
+                        <div>Salads</div>
+                    </div>
+                    <div class="preview-img-1 preview2">
+                        <div>Eclair</div>
+                    </div>
+                    <div class="preview-img-1 preview3">
+                        <div>Drinks</div>
+                    </div>
+                </div>
+            </div>
+    
+               <div class="introduction container">
+                  <h2 class="welcome royale">WELCOME TO L'ALIMENT</h2>
+                  <p class="see">~ luxury & Quality ~</p>
+    
+                  <div class="row chefs latest-newsCenter">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="img-holder ">
+                            <div class="thumbnail">
+                                <img src="../images/kitchen-81493_1920.jpg" alt="">
+                                <div class="describe">
+                                    <h5>PROFESSIONAL LEVEL</h5>
+                                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur.</p>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="img-holder">
+                            <div class="thumbnail">
+                                <img src="../images/eat-3175540_1920.jpg" alt="">
+                                <div class="describe">
+                                    <h5>FRESH FOOD GUARENTEED</h5>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="img-holder ">
+                            <div class="thumbnail">
+                                <img src="../images/kitchen-731351_1920.jpg" alt="">
+                                <div class="describe">
+                                    <h5>THE MENU IS PLENTIFUL</h5>
+                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  
+        </div>
+        <div class="menu-container">
+            <section class="menu">
+                <div class="food-menu-title">
+                    <h2 class="welcome">OUR FOOD MENU</h2>
+                    <p class="see">~ see what we offer ~</p>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-space">
+                        <div class="col-md-6 ">
+                            <div class="menu-col right">
+                                    <div class="course">
+                                        <h2>Main Course</h2>
+                                        <span class="icon"></span>
+                                    </div>
+                                    <div class="course-item">
+                                        <h5>
+                                            <span class="food">Super-Delicious Zuppa Toscana</span>
+                                            <span class="dot"></span>
+                                            <span class="price">$40</span>
+                                        </h5>
+                                    </div>
+                                    <div class="course-item">
+                                        <h5>
+                                            <span class="food">Bacon coil baked Australian beef</span>
+                                            <span class="dot"></span>
+                                            <span class="price">$26</span>
+                                        </h5>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="menu-col left">
+                                <div class="course">
+                                    <h2>Soups & Salads</h2>
+                                    <span class="icon"></span>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Salat banana flower</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$40</span>
+                                    </h5>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Gourmet Mushroom Risotto</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$26</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="menu-col right">    
+                                <div class="course">
+                                    <h2>Drinks</h2>
+                                    <span class="icon"></span>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Ice cream tarte apple</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$40</span>
+                                    </h5>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Fruit 'Mille feuille'</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$26</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"> 
+                            <div class="menu-col left">               
+                                <div class="course">
+                                    <h2>Desserts</h2>
+                                    <span class="icon"></span>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Double Chocolate mud pie</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$40</span>
+                                    </h5>
+                                </div>
+                                <div class="course-item">
+                                    <h5>
+                                        <span class="food">Pannacotta cream cake</span>
+                                        <span class="dot"></span>
+                                        <span class="price">$26</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </div>
+    <div>
+        <div class="beaf-steak container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="../images/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="" class="size-up">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="advert">
+                           <div class="title">
+                               <h3>BEEF STEAK WITH GREEN</h3>
+                               <span>- $45</span>
+                           </div>
+                           <div class="body-beef">
+                                <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</p>
+                                <div class="beef-icon">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="slider"></div>
+                           </div>
+                        </div>
+                        <div class="owl-carousel owl-theme owl-holder">
+                            <div class="img-fluid">
+                                <div class="circular-potrait space">
+                                    <img src="../images/aigars-peda-HEG9RhlLKTY-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Beef steak with red</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>56
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid">
+                                <div class="circular-landscape  space">
+                                    <img src="../images/brandi-ibrao-M-Br3v3-gao-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Salat Banana flower</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>50
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid">
+                                <div class="circular-potrait left-pic space">
+                                    <img src="../images/daniel-horvath-306TeIlJgAI-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Beef steak with red</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>56
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid">
+                                <div class="circular-potrait left-pic space">
+                                    <img src="../images/do-mee-SH8_JmrsQcw-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Salat Banana flower</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>56
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid item">
+                                <div class="circular-potrait left-pic space">
+                                    <img src="../images/mae-mu-H5Hj8QV2Tx4-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Classic Linguini Fini</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>40
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid">
+                                <div class="circular-potrait space">
+                                    <img src="../images/svitlana-X6F3Qfa98T4-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Salat Banana flower</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>56
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="img-fluid">
+                                <div class="circular-potrait space">
+                                    <img src="../images/yu-hosoi-9dSl7cZgDsk-unsplash.jpg">
+                                </div>
+                                <div class="item-info">
+                                    <h6>
+                                        <p>Beef steak with red</p>
+                                    </h6>
+                                    <span class="price">
+                                        <span>$</span>56
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="book">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <img src="../images/table-791167_1920.jpg" alt="" class="table">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section-header">
+                    <h2 class="welcome book-a-table">BOOK A TABLE</h2>
+                    <span class="see"> ~Check out our place ~</span>
+                </div>
+                <form action="GET">
+
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <select name="people" id="people" class="book1">
+                                <option value="1 person">1 person</option>
+                                <option value="1 person">2 people</option>
+                                <option value="1 person">3 people</option>
+                                <option value="1 person">4 people</option>
+                                <option value="1 person">5 people</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="date" name="date" id="date" placeholder="Date" class="book1">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="time" name="time" id="time" placeholder="Time" class="book1">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="text" id="text" placeholder="Name" class="book1">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" name="tel" id="tel" placeholder="Phone" class="book1">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" id="email" placeholder="Email" class="book1">
+                        </div>
+                    </div>
+                    <button class="btn-book">BOOK NOW</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+    <div class="latest-news">
+        <div class="latestNews-header">
+            <h2 class="welcome">LATEST NEWS</h2>
+            <span class="see">~ Great articles ~</span>
+        </div>
+        <div class="row container latest-newsCenter">
+            <div class="col-md-4">
+                <div class="thumbnail ">
+                    <div>
+                    <img src="../images/champagne-glasses-1940262_1920.jpg" alt="" class="latestNews-photos">
+                    <div class="latestNews-note border-latestNews">
+                        <h5>ON THE OTHER HAND</h5>
+                        <p class="LatestNewsP">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                        <a href="#" class="btn-readmore">READ MORE</a>
+                    </div></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="../images/salad-2756467_1920.jpg" alt="" class="latestNews-photos">
+                    <div class="latestNews-note 
+                    border-latestNews">
+                        <h5>CONTRARY TO POPULAR</h5>
+                        <p class="LatestNewsP">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</p>
+                        <a href="#" class="btn-readmore">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="../images/wine-2732982_1920.jpg" alt="" class="latestNews-photos">
+                    <div class="latestNews-note border-latestNews">
+                        <h5>THIS BOOK IS A TREATISE</h5>
+                        <p class="LatestNewsP">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea.</p>
+                        <a href="#" class="btn-readmore">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <footer class="footer-index">
+        <div class="container footer-container">
+            <div class="footer-header">
+                <div class="toggle-center toggle-center-footer">
+                    <i class="fas fa-utensils fork-spoon-2"></i>
+                    <h5 class="aliment">l' aliment</h5>
+                </div>
+            </div>
+           <div class="row">
+                <div class="col-md-4 footer-title">
+                   <h5>ABOUT US</h5>
+                   <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</p>
+               </div>
+                <div class="col-md-4 footer-title">
+                        <h5 class="get-news-offers">GET NEWS & OFFERS</h5>
+                       <!-- Begin Mailchimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+	                    #mc_embed_signup{background:#111; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">      
+                        <form action="https://gmail.us10.list-manage.com/subscribe/post?u=92cd0ab78b72347fa122d3018&amp;id=29118961c4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="display-footer">
+                            <div id="mc_embed_signup_scroll" class="display-footer">
+	                            <input class="email-footer" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_92cd0ab78b72347fa122d3018_29118961c4" tabindex="-1" value=""></div>
+                               <div class="clear"><i class="far fa-envelope envelope"></i><input class="subscribe-to-us" type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button subscribe-to-us"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                    <div class="icon icon-footer">
+                        <a href="https://twitter.com/amaraIheanach0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Iheanacho-ai"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/public-profile/in/amarachi-iheanacho-0126861a6?challengeId=AQEgXeNoGLD74QAAAXOCgkzvZ3PPwf1yuk4TtDBG_10hmYUZwQtPCGHs1EBxuJNLZ8IUCVaav_vPhFfgI4ezfizQyg5_sMWp9g&submissionId=68f74eb3-28ca-2416-84ce-e0ba1d077104"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/daya___xo/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-title">
+                    <h5>Contact-us</h5>
+                    <div class="address">
+                       <p>No 40 Baria Sreet 133/2</p>
+                       <p>NewYork 13589</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+</body>
+</html>
